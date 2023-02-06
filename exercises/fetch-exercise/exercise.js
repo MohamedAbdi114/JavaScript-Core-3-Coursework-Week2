@@ -16,10 +16,10 @@ Expected result
 Open index.html in your browser. Every time you refresh the page,
 a different greeting should be displayed in the box.
 */
-fetch("https://codeyourfuture.herokuapp.com/api/greetings")
+fetch("https://holy-snow-6805.fly.dev/api/greetings")
 
   .then(function (response) {
-   return response.json();
+   return response.text();
    
   })
   .then(function (greeting) {
